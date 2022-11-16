@@ -10,9 +10,6 @@ pipeline
             {
                 // Run the maven build
                 echo 'going into the build stage'
-                export Maven_HOME=/opt/apache-maven-3.8.6
-                export PATH+$PATH:$MAVEN_HOME/bin
-                mvn --version
                 sh 'mvn clean install'
                 echo 'Finished with maven finally'
             }
