@@ -10,7 +10,7 @@ pipeline
             {
                 // Run the maven build
                 echo 'going into the build stage'
-                sh '"mvn" -Dmaven.test.failure.ignore clean install build'
+                sh '"./mvn" -Dmaven.test.failure.ignore clean install'
                 echo 'Finished with maven'
             }
 
