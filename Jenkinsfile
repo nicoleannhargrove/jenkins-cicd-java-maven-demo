@@ -27,7 +27,7 @@ pipeline
             {
                 echo 'going into the Deply stage'
                 //deploy war on tomcat server
-                deploy adapters: [tomcat9(url: "${tomcatServerUrl}",
+                deploy adapters: [tomcat9(url: 'http://3.222.113.231:8081',
                 credentialsId: 'tomcat-credentials')],
                 war: 'target/*.war',
                 contextPath: 'pipeline-app'
