@@ -4,7 +4,7 @@ pipeline
     agent any
     tools
     {
-        maven 'mvn'
+        maven 'Maven'
 
     }
     stages
@@ -15,7 +15,7 @@ pipeline
             {
                 // Run the maven build
                 echo 'going into the build stage'
-                sh 'mvn clean install'
+                sh 'mvn clean install package'
                 echo 'Finished with maven finally'
             }
 
