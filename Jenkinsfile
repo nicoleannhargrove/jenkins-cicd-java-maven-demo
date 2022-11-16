@@ -5,7 +5,7 @@ pipeline
     tools
     {
         maven 'mvn'
-        jdk 'jkd11'
+
     }
     stages
     {
