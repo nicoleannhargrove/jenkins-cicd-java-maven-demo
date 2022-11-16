@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>Hello from Strategio!</h2>
+<h2>Semester is almost over!</h2>
 </body>
 </html>
