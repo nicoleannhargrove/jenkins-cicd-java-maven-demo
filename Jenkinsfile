@@ -10,7 +10,7 @@ pipeline
             {
                 // Run the maven build
                 echo 'going into the build stage'
-                sh 'mvn clean install'
+                'mvn clean install'
                 echo 'Finished with maven finally'
             }
 
